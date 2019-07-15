@@ -6,6 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 `npm install materialize-css@next --save`
 
+ng g component components/authTabs --dry-run
+ng g module modules/auth-routing --flat --dry-run
+ng g module modules/auth --flat --dry-run
+
+
 <!doctype html>
 <html lang="en">
 
