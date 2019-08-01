@@ -10,6 +10,10 @@ ng g component components/authTabs --dry-run
 ng g module modules/auth-routing --flat --dry-run
 ng g module modules/auth --flat --dry-run
 
+ng g component components/login --module=modules/auth.module.ts --dry-run
+ng g component components/signup --module=modules/auth.module.ts
+
+ng g service services/auth --no-spec --flat
 
 <!doctype html>
 <html lang="en">
@@ -21,6 +25,7 @@ ng g module modules/auth --flat --dry-run
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 
 <body>
